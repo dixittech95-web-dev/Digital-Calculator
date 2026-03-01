@@ -1,0 +1,38 @@
+
+@media (max-width:768px){
+    main{
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 20px;
+    }
+    .container{
+        width: auto;
+        margin-top: 25px;
+    }
+    .content{
+        width: auto;
+        height: auto;
+    }
+    
+    .logo{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media (min-width:769px) and (max-width:1023){
+     main{
+        padding: 20px;
+    }
+    .container{
+        width: auto;
+    }
+    .content{
+        width: auto;
+        height: auto;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
